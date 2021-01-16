@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+html{
+    font-family: 'Rubik', sans-serif;
+background: url(img/background.png) !important;
+background-repeat: no-repeat  ;
+background-size: cover  ;
+background-position: center  ;
+
+}
+body{
+    background: #333333;
+    height: 100%;
+}
+#movie img,#movies img{
+    width: 100%;
+}
+#movies img:hover{
+opacity: 0.8;
+}
+
+#movie{
+    height: fit-content;
+}
+
+#logo{
+    width: 250px;
+}
+
+#movies .col-md-3 .well{
+    height: 400px;
+}
+#movies .col-md-3 img{
+    height: 300px;
+}
+h5{
+   font-size: 18px;
+color: rgb(17, 16, 16);
+
+}
+.fa-times-circle{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    color: #333333;;
+}
+@media screen and (max-width:600px){
+    #logo{
+        width:200px;
+    }
+}
